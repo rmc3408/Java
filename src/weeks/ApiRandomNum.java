@@ -1,4 +1,4 @@
-package weeks;
+
 import java.security.SecureRandom;
 
 public class ApiRandomNum {
