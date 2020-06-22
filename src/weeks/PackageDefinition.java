@@ -7,8 +7,8 @@
     import javax.swing.*;
     import java.lang;
 
-    Scanner out = from user, keyboard, mouse
-    Scanner in = from object , file.
+    Scanner out = Display data to screen or printer
+    Scanner in = Get USER input from object, file, mouse , keyboard
 
     
 */

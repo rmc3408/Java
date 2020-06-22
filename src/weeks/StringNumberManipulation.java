@@ -24,7 +24,7 @@ public class StringNumberManipulation {
 		
 		// %d - integers
 		// %s - string
-		// %f - double, decimals , float
+		// %f - double and float
 		
 		//enables a program to read data for use in a program.
 		Scanner input = new Scanner(System.in);
@@ -41,7 +41,7 @@ public class StringNumberManipulation {
 		
 		System.out.print("Enter string 01: ");
 		String myStr01 = input.next();
-		System.out.print("Enter string 01: ");
+		System.out.print("Enter string 02: ");
         String myStr02 = input.next();
 		System.out.println(myStr01 + myStr02);
 		
