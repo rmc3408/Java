@@ -12,6 +12,22 @@ Java lectures from Centennial
 
 ## Week 03
 
+- Array
+To pass an array argument to a method, specify the name of the
+array without any brackets.
+
+Since every array object “knows” its own length, we need not
+pass the array length as an additional argument.
+
+To receive an array, the method’s parameter list must specify an array parameter.
+
+When an argument to a method is an entire array or an individual array element of a reference type, the called method receives a copy of the reference.
+
+When an argument to a method is an individual array element of a primitive type, the called method receives a copy of the
+element’s value.
+
+
+
 ** Method call stack. Is the order methods are pile in memory.
 mehtod how program return to caller. (PILE of DISHES)
 
