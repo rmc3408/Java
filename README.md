@@ -11,11 +11,28 @@ Java lectures from Centennial
 
 
 ## Week 03
-Static method wii be a method performs a task that does not depend on an object. Just to perform tasks.
+
+** Method call stack. Is the order methods are pile in memory.
+mehtod how program return to caller. (PILE of DISHES)
+
+Fist is push onto bottom of pile. Lat item onto stack(on top) will be the first to be called (popped out). 
+
+Argument promotion - converting an argument’s value, method receive parameter integers but will return double. They are automatic converted.
+
+
+* Non-static methods are typically called instance methods.
+Call by `ObjectName.method` 
+
+* Static method wii be a method performs a task that does not depend on an object. Just to perform tasks.
 Call by `ClassName.Method`
 if in same class, just method name.
+
 To perform tasks:
 One example is static predefined class Math = `Math.pow`
+
+- If a boolean is concatenated with a String, the boolean is converted to the String "true" or "false".
+
+When an object is concatenated with a String, the object’s toString method is implicitly called to obtain the String representation of the object
 
 
 

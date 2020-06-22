@@ -52,13 +52,14 @@ public class ApiRollDices {
 		while (gameStatus == Status.CONTINUE) // not WON or LOST
 		{
 		sumOfDice = rollDice(); // roll dice again
+		
 		// determine game status
 		if (sumOfDice == myPoint) // win by making point
 		gameStatus = Status.WON;
-		else
-		if (sumOfDice == SEVEN) // lose by rolling 7 before point
+		else if (sumOfDice == SEVEN) // lose by rolling 7 before point
 		gameStatus = Status.LOST;
 		}
+		
 		// display won or lost message
 		if (gameStatus == Status.WON)
 		System.out.println("Player wins");
