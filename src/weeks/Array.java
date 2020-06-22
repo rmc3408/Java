@@ -15,15 +15,14 @@ public class Array {
 		
 		
 		//if not sized defined, you CAN declare array elements.
-		int[] d = new int[]{1,2,3,4,5,6,7,8,9,10}; 
+		int[] d = new int[]{12,24,3,14,55,6,37,28,49,10}; 
 		int e[] = {10,20,30};		
 		
 		
 		for (int i : e) {
 			System.out.println(i);
 		}
-		Array m = new Array();
-		
+		System.out.println("-------------");		
 		System.out.printf("the largest number is %d", maxo(d));
 	
 	}
@@ -40,7 +39,7 @@ public class Array {
 			}
 			if (insideArray[i] < min) 
 			{
-				max = insideArray[i];
+				min = insideArray[i];
 			}
 		}
 	
