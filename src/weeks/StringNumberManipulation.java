@@ -45,6 +45,7 @@ public class StringNumberManipulation {
         String myStr02 = input.next();
 		System.out.println(myStr01 + myStr02);
 		
+		input.close();
 
 	}
 

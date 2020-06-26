@@ -22,6 +22,7 @@ public class AssigOneNumbers {
 		// Output of result.
 		System.out.printf("The product of %d, %d and %d is %d.%n"
 				, numOne, numTwo, numThree, productOfThree);
-		
+				
+		input.close();
 	}
 }

@@ -23,6 +23,9 @@ public class Time3Test
       try
       {
          Time3 t6 = new Time3(27, 74, 99); // invalid values
+         System.out.println(t6.getHour());
+         System.out.println(t6.getSecond());
+
       } 
       catch (IllegalArgumentException e)
       {

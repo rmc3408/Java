@@ -1,14 +1,23 @@
 package weeks;
+import java.util.stream.IntStream;
 
 public class Array {
 
 	public static void main(String[] args) {
 		
 		// 3 forms to declaring array.
-		int a[];			  // only array declared, no size defined.
-		int[] b = new int[4]; //pre-defined size;
-		
-		
+		int[] a = {1,2,3,4,5,6}; // only array declared, no size defined.
+		System.out.println(a); // show memory location
+
+		int[] ab = IntStream.rangeClosed(2, 4).toArray();
+		System.out.println(ab.length);
+		System.out.println(ab[0]);
+
+
+		double[] b = new double[4]; //pre-defined size;
+		b[0] = 3.5;
+		System.out.println(b[0]);
+
 		int c[] = new int[2]; //simplified
 		c[0] = 5;
 		c[1] = 10;

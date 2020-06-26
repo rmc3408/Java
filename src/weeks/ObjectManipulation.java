@@ -24,7 +24,7 @@ public class ObjectManipulation {
 		System.out.printf("the name is %s and age of %d.%n", myAcc.getName(), myAcc.getAge());
 		
 		
-		
+		input.close();
 		
 	}
 
