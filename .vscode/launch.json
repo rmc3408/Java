@@ -1,0 +1,119 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-A1Q1<Labs_Java_fd4a3b24>",
+            "request": "launch",
+            "mainClass": "Assigment.A1Q1",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-A1Q2<Labs_Java_fd4a3b24>",
+            "request": "launch",
+            "mainClass": "Assigment.A1Q2",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-A2Q1<Labs_Java_fd4a3b24>",
+            "request": "launch",
+            "mainClass": "Assigment.A2Q1",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ApiRandomNum<Labs_Java_fd4a3b24>",
+            "request": "launch",
+            "mainClass": "weeks.ApiRandomNum",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ApiRollDices<Labs_Java_fd4a3b24>",
+            "request": "launch",
+            "mainClass": "weeks.ApiRollDices",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Array<Labs_Java_fd4a3b24>",
+            "request": "launch",
+            "mainClass": "weeks.Array",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DialogBox<Labs_Java_fd4a3b24>",
+            "request": "launch",
+            "mainClass": "weeks.DialogBox",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EmployeeTest<Labs_Java_fd4a3b24>",
+            "request": "launch",
+            "mainClass": "weeks.EmployeeTest",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EnumTest<Labs_Java_fd4a3b24>",
+            "request": "launch",
+            "mainClass": "weeks.EnumTest",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Methods<Labs_Java_fd4a3b24>",
+            "request": "launch",
+            "mainClass": "weeks.Methods",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ObjectManipulation<Labs_Java_fd4a3b24>",
+            "request": "launch",
+            "mainClass": "weeks.ObjectManipulation",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Scope<Labs_Java_fd4a3b24>",
+            "request": "launch",
+            "mainClass": "weeks.Scope",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StringNumberManipulation<Labs_Java_fd4a3b24>",
+            "request": "launch",
+            "mainClass": "weeks.StringNumberManipulation",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Time1Main<Labs_Java_fd4a3b24>",
+            "request": "launch",
+            "mainClass": "weeks.Time1Main",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Time3Test<Labs_Java_fd4a3b24>",
+            "request": "launch",
+            "mainClass": "weeks.Time3Test",
+            "projectName": "Labs_Java_fd4a3b24"
+        }
+    ]
+}
