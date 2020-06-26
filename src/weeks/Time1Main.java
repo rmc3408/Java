@@ -3,7 +3,7 @@ package weeks;
 public class Time1Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		
 		Time1 myTime = new Time1();
 		
