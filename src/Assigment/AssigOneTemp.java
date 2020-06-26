@@ -1,4 +1,4 @@
-
+package Assigment;
 import java.util.Scanner;
 
 public class AssigOneTemp {
