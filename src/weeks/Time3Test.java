@@ -9,7 +9,7 @@ public class Time3Test
       Time3 t1 = new Time3(); // 00:00:00
       Time3 t2 = new Time3(2); // 02:00:00
       Time3 t3 = new Time3(21, 34); // 21:34:00
-      Time3 t4 = new Time3(12, 25, 42); // 12:25:42
+      Time3 t4 = new Time3(19, 25, 42); // 12:25:42
       Time3 t5 = new Time3(t4); // 12:25:42
 
       System.out.println("Constructed with:");

@@ -9,10 +9,8 @@ public class ObjectManipulation {
 
 	public static void main(String[] args) {
 		
-		// Create a object from other file. 
-		
-		
-		// calling constructor with 2 parameters
+	// Create a object from other file. 	
+	// calling constructor with 2 parameters
 		ObjectManipulationClass myAcc = new ObjectManipulationClass("John", 38);
 		
 		Scanner input = new Scanner(System.in);
