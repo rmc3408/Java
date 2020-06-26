@@ -1,5 +1,4 @@
-
-
+package weeks;
 public class Time2
 {
    private int hour; // 0 - 23

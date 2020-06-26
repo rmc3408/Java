@@ -1,3 +1,4 @@
+package weeks;
 import java.util.Date;
 
 public class Constructor 

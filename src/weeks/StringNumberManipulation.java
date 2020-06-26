@@ -1,4 +1,4 @@
-
+package weeks;
 
 import java.util.Scanner;
 

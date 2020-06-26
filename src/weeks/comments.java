@@ -1,3 +1,4 @@
+package weeks;
 public class comments {
     
     // one line comments

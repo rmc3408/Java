@@ -1,3 +1,4 @@
+package weeks;
 import java.util.Scanner;
 
 		//! Object = property and operation
