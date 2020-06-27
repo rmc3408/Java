@@ -1,4 +1,6 @@
 package Assigment;
+
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class A2Q1 {
@@ -7,10 +9,20 @@ public class A2Q1 {
 		
 		Scanner input = new Scanner(System.in);
 		System.out.print("Please, enter number: ");
-		int numUser = input.nextInt();
-		input.close();
+		
+		try{
+			int numUser = input.nextInt();
+			if(numUser < 0){
+				throw new InputMismatchException("Enter positive whole number");
 
-		System.out.print(revertNum(numUser));
+			}
+			input.close();
+			System.out.print(revertNum(numUser));
+			
+		}catch(InputMismatchException e){
+			//System.out.println("Please input a positive whole number.");
+			System.out.println(e.getMessage());
+		}
 		
 	}
 	public static int revertNum(int num) 

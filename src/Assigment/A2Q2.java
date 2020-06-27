@@ -1,52 +1,52 @@
 package Assigment;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
-import java.util.stream.IntStream;
 
 public class A2Q2 {
-    public static void main(String[] args) 
-    {
-		//create user input object
+
+    public static void main(String[] args) {
+        //create user input object
         Scanner input = new Scanner(System.in);
-        System.out.print("Please, enter number: ");
-		int numUser = input.nextInt();
-        input.close();
-        
-        System.out.printf("the number %d is a %b Even!%n", numUser, isEven(numUser));
-        System.out.printf("And the scale number is %d!", enterScale(numUser));
-    
+
+        try {
+            System.out.print("Please, enter number: ");
+            int numUser = input.nextInt();
+
+            System.out.printf("%nFirst method = Number %d in isEven() say is %b%n", numUser, isEven(numUser));
+            System.out.printf("%nSecond method: enterScale() returns = %d%n%n", enterScale(numUser));
+            input.close();
+        } catch (InputMismatchException e) {
+            System.out.printf("%n-----------------%n");
+            System.out.printf("Invalid character%n");
+            System.out.printf("-----------------%n%n%n");
+
+        } catch (IllegalArgumentException e) {
+            System.out.printf("%n---------------------------------%n");
+            System.out.printf("User input a Invalid range%n");
+            System.out.printf("Exception: %s%n", e.getMessage());
+            System.out.printf("---------------------------------%n%n");
+        }
+
     }
-    public static boolean isEven(int num)
-    {
+    public static boolean isEven(int num) {
         return num % 2 == 0 ? true : false;
     }
-    public static boolean enterScale(int num)
-    {
-        
-        IntStream bottom = IntStream.range(0, 60);
-        IntStream medium = IntStream.range(60, 70);
-        IntStream low = IntStream.range(70, 80);
-        IntStream under = IntStream.range(80, 90);
-        IntStream top = IntStream.range(90, 100);
-        
-
-        if (new )
-        {
-            System.out.println("between 0 and 59");
-        } 
-        else if (IntStream.range(60, 69))
-        {
-            // do something else 
+    public static int enterScale(int num) {
+        if (num < 0 || num > 100) {
+            throw new IllegalArgumentException("Out of Range: 0 - 100");
         }
-        if (num % 2 == 0)
-        {
-            return true;
-        } 
-        else 
-        {
-            return false;
+        if (num / 10 < 6) {
+            return 0;
+        } else if (num / 10 == 6) {
+            return 1;
+        } else if (num / 10 == 7) {
+            return 2;
+        } else if (num / 10 == 8) {
+            return 3;
+        } else {
+            return 4;
         }
-
 
     }
 }
