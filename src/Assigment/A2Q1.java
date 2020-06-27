@@ -5,24 +5,32 @@ public class A2Q1 {
 
 	public static void main(String[] args) {
 		
-		//create to object to accept input from user 
 		Scanner input = new Scanner(System.in);
-		
-		//Users enter input, convert to int and assign to variable.
-		System.out.print("Please, enter first number: ");
-		int numOne = input.nextInt();
-		System.out.print("Please, enter second number: ");
-		int numTwo = input.nextInt();
-		System.out.print("Please, enter third number: ");
-		int numThree = input.nextInt();
-		
-		// calculate product formula
-		int productOfThree = numOne * numTwo * numThree;
-		
-		// Output of result.
-		System.out.printf("The product of %d, %d and %d is %d.%n"
-				, numOne, numTwo, numThree, productOfThree);
-				
+		System.out.print("Please, enter number: ");
+		int numUser = input.nextInt();
 		input.close();
+
+		System.out.print(revertNum(numUser));
+		
 	}
+	public static int revertNum(int num) 
+	{
+		int count = 1;
+		int numForward = num;
+		while (num / 10 >= 1) 
+		{
+            num = num / 10;
+            count++;
+		}
+		int unit = 0;
+				
+		for (int i = count; i > 0;i--) 
+		{
+			unit = unit + (((int)Math.pow(10, i - 1)) * (numForward % 10));
+			numForward = numForward / 10;
+		}
+		
+		return unit;
+	}
+	
 }
