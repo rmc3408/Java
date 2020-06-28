@@ -33,8 +33,8 @@ public class A2Q2 {
         return num % 2 == 0 ? true : false;
     }
     public static int enterScale(int num) {
-        if (num < 0 || num > 100) {
-            throw new IllegalArgumentException("Out of Range: 0 - 100");
+        if (num > 100) {
+            throw new IllegalArgumentException("No more than 100");
         }
         if (num / 10 < 6) {
             return 0;
