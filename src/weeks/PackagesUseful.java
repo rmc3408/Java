@@ -7,6 +7,8 @@ package weeks;
     import java.util.Scanner;
     import javax.swing.*;
     import java.lang;
+    import java.math.BigDecimal;
+    import java.text.NumberFormat;
 
 */
 // You can import static class !

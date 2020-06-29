@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Interest",
+            "request": "launch",
+            "mainClass": "examples.Interest",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PackageDataTest",
             "request": "launch",
             "mainClass": "weeks.PackageDataTest",
