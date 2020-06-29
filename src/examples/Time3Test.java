@@ -1,4 +1,4 @@
-package weeks;
+package examples;
 
 // Overloaded constructors used to initialize Time3 objects.
 
