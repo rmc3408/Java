@@ -15,7 +15,6 @@ public class StringNumberManipulation {
 		///////////////////////////////////
 
 		byte i = 4;
-		int count = 1;
 		float num1 = 6f;
 		float num2 = 10f;
 		float sum = num1 + num2;
