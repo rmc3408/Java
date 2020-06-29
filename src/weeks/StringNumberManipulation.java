@@ -9,20 +9,25 @@ public class StringNumberManipulation {
 		//Output object
 		System.out.printf("Hello Class%n");
 		
+		//////////////////////////////////
+		// Eight primitive datatypes:
+		//byte, short, int, double, float, boolean, char,  long
+		///////////////////////////////////
+
+		byte i = 4;
+		int count = 1;
 		float num1 = 6f;
 		float num2 = 10f;
 		float sum = num1 + num2;
 		float div = num2 / num1;
-		
+				
+
 		// PRINTF is format specifier.
-
-		//primitive datatypes:
-		//byte, short, int, double, float, boolean, char,  long
-
 		System.out.printf("the Sum is %f%n", sum);  //%f = float 
 		System.out.println("Number = " + num2);
-				
-		System.out.printf("the division is %f%n", div);
+		System.out.printf("primitive datatype is %b", i);	
+			
+		//System.out.printf("the division is %f%n", div);
 		System.out.printf("the division is %.2f", div);
 		
 		// %d - integers
