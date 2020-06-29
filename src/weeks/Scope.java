@@ -2,7 +2,8 @@ package weeks;
 
 public class Scope {
 
-	
+	// constant = final
+	private final static int variableConstant = 1;
 	private static int x = 1;
 
 	
@@ -10,7 +11,7 @@ public class Scope {
 		
 		int x = 5; //local variable 
 		System.out.printf("local x in main is %d%n", x);
-		
+		System.out.println(variableConstant);
 		
 		useLocalVariable(); 
 		useField();
