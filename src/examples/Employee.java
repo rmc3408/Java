@@ -1,8 +1,5 @@
 package examples;
 
-// Fig. 8.12: Employee.java
-// Static variable used to maintain a count of the number of 
-// Employee objects in memory.
 
 public class Employee 
 {
