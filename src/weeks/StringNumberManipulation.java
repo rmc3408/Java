@@ -9,12 +9,15 @@ public class StringNumberManipulation {
 		//Output object
 		System.out.printf("Hello Class%n");
 		
-		float num1 = 6;
-		float num2 = 10;
+		float num1 = 6f;
+		float num2 = 10f;
 		float sum = num1 + num2;
 		float div = num2 / num1;
 		
 		// PRINTF is format specifier.
+
+		//primitive datatypes:
+		//byte, short, int, double, float, boolean, char,  long
 
 		System.out.printf("the Sum is %f%n", sum);  //%f = float 
 		System.out.println("Number = " + num2);
