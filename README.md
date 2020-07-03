@@ -5,9 +5,8 @@ PAROU NO SLIDE 29 - week04
 
 ## Week 05
 
-* Inheritance = extends keyword
-
-``` extends keyword ```
+* Inheritance = 
+``` extends ```
 
 members = fields and methods.
 
@@ -16,6 +15,9 @@ members = fields and methods.
 
 Is-a = inheritance.
 has-a = Composition.
+
+implicitly is when invokes for example, class Object’s default constructor.
+do not need say "extends Object". 
 
 _Main Issue_ = A subclass can inherit methods that it does not need.
 
@@ -29,7 +31,16 @@ Hide from subclass.
 Access only inside same class, not Subclass , neither external.
 
 
-* super keyword = override
+* @Overrides 
+To override any method from a superclass method. 
+
+```
+@Overrides
+public String toString() 
+{ return " "; }
+```
+
+
 
 
 
