@@ -1,6 +1,29 @@
 # Java lectures from Centennial 
 
-PAROU NO 29 - week04
+PAROU NO SLIDE 29 - week04
+
+
+## Week 05
+
+* Inheritance
+members = fields and methods.
+
+1) Superclass = more general.
+2) subclass = more specific.
+
+Is-a = inheritance.
+has-a = Composition.
+
+
+
+* protected keyword
+Access only inside same subclass, not external.
+
+
+
+
+
+
 
 
 ## Week 04
