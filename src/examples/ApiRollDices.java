@@ -1,12 +1,14 @@
 package examples;
+
 import java.security.SecureRandom;
+
 
 public class ApiRollDices {
 
 	
 	private static final SecureRandom rnd = new SecureRandom();
 	
-	private enum Status {CONTINUE, WON, LOST};
+	private enum Status { CONTINUE, WON, LOST };
 	
 	private static final int SNAKE_EYES = 2;
 	private static final int TREY = 3;

@@ -1,14 +1,11 @@
 package examples;
 
-// Fig. 9.9: BasePlusCommissionEmployee.java
-// BasePlusCommissionEmployee inherits protected instance   
-// variables from CommissionEmployee.
 
 public class BaseComission extends CommissionEmployee
 {
    private double baseSalary; // base salary per week
 
-   // six-argument constructor
+   // six-argument constructor( 5 from superClass + 1 new)
    public BaseComission(String firstName, String lastName, 
       String socialSecurityNumber, double grossSales, 
       double commissionRate, double baseSalary)
