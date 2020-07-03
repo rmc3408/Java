@@ -5,7 +5,10 @@ PAROU NO SLIDE 29 - week04
 
 ## Week 05
 
-* Inheritance
+* Inheritance = extends keyword
+
+``` extends keyword ```
+
 members = fields and methods.
 
 1) Superclass = more general.
@@ -14,12 +17,19 @@ members = fields and methods.
 Is-a = inheritance.
 has-a = Composition.
 
+_Main Issue_ = A subclass can inherit methods that it does not need.
 
 
 * protected keyword
 Access only inside same subclass, not external.
 
 
+* private keyword
+Hide from subclass.
+Access only inside same class, not Subclass , neither external.
+
+
+* super keyword = override
 
 
 
