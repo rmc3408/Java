@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LabelGraphical",
+            "request": "launch",
+            "mainClass": "weeks.LabelGraphical",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BasePlusCommissionEmployeeTest",
+            "request": "launch",
+            "mainClass": "Udemy.BasePlusCommissionEmployeeTest",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Time3Test",
             "request": "launch",
             "mainClass": "examples.Time3Test",
