@@ -4,17 +4,12 @@ import java.util.Date;
 public class Constructor 
 {
    private String firstName;
-   private String lastName;
-   private Date birthDate;
    private Date hireDate;
 
    // constructor to initialize name, birth date and hire date
-   public Constructor(String firstName, String lastName, Date birthDate, 
-      Date hireDate)
+   public Constructor(String firstName, Date hireDate)
    {
       this.firstName = firstName;
-      this.lastName = lastName;
-      this.birthDate = birthDate;
       this.hireDate = hireDate;
    } 
 
@@ -22,6 +17,6 @@ public class Constructor
    public String toString()
    {
       return String.format("%s, %s  Hired: %s  Birthday: %s", 
-         lastName, firstName, hireDate, birthDate);
+         firstName, hireDate);
    } 
 } 
