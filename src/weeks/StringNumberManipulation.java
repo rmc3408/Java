@@ -24,12 +24,16 @@ public class StringNumberManipulation {
 		// PRINTF is format specifier.
 		System.out.printf("the Sum is %f%n", sum);  //%f = float 
 		System.out.println("Number = " + num2);
-		System.out.printf("primitive datatype is %b", i);	
+		System.out.printf("primitive datatype is %b%n%n", i);	
 			
 		//System.out.printf("the division is %f%n", div);
-		System.out.printf("the division is %.2f", div);
+		System.out.printf("the division is %8.1f%n", div); //space before number
+		System.out.printf("the division is %-8.1f%n", div); //space after number
+		System.out.printf("the division is %08.1f%n", div); //zero in 4 space before number
 		
-		// %d - integers
+		System.out.printf("the division is %.2f%n", div);
+		
+		// %d - integersd
 		// %s - string
 		// %f - double and float
 		
