@@ -26,7 +26,7 @@ public class ExtendsTEST
       employee.setBaseSalary(1000); 
       
       System.out.printf("%n%s: %s", 
-         "Updated employee information obtained by toString", 
+         "Updated employee information obtained by toString:%n", 
          employee.toString());
    } 
 } 
