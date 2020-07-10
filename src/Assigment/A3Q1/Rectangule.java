@@ -1,6 +1,5 @@
 package Assigment.A3Q1;
 
-
 public class Rectangule {
     
     protected double width = 1;
@@ -8,6 +7,9 @@ public class Rectangule {
 
     public Rectangule(double w, double l)
     {
+        if ((l > 20 && l < 0) && (w > 20 && w < 0)) {
+            throw new IllegalArgumentException("Out of range");
+        }
         this.length = l;
         this.width = w;
         System.out.printf("Rectangle Object created");
