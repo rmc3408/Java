@@ -1,35 +1,20 @@
-package Udemy;
+package weeks;
 
-// Fig. 9.10: CommissionEmployee.java
-// CommissionEmployee class uses methods to manipulate its 
-// private instance variables.
-public class CommissionEmployee
+
+public class Extends0
 {
    private final String firstName;                              
    private double grossSales; // gross weekly sales       
    private double commissionRate; // commission percentage
 
-   // five-argument constructor
-   public CommissionEmployee(String firstName, double grossSales, 
+   // 3-argument constructor
+   public Extends0(String firstName, double grossSales, 
       double commissionRate)
    {
-      // implicit call to Object constructor occurs here
-
-      // if grossSales is invalid throw exception
-      if (grossSales < 0.0) 
-         throw new IllegalArgumentException(
-            "Gross sales must be >= 0.0");
-
-      // if commissionRate is invalid throw exception
-      if (commissionRate <= 0.0 || commissionRate >= 1.0)
-         throw new IllegalArgumentException(
-            "Commission rate must be > 0.0 and < 1.0");
-
       this.firstName = firstName;                                    
-           
       this.grossSales = grossSales;
       this.commissionRate = commissionRate;
-   } // end constructor 
+   } 
 
    // return first name
    public String getFirstName()
@@ -41,14 +26,10 @@ public class CommissionEmployee
    // set gross sales amount
    public void setGrossSales(double grossSales)
    {
-      if (grossSales < 0.0) 
-         throw new IllegalArgumentException(
-            "Gross sales must be >= 0.0");
-
       this.grossSales = grossSales;
    } 
 
-   // return gross sales amount
+   // Get return gross sales amount
    public double getGrossSales()
    {
       return grossSales;
@@ -57,14 +38,11 @@ public class CommissionEmployee
    // set commission rate
    public void setCommissionRate(double commissionRate)
    {
-      if (commissionRate <= 0.0 || commissionRate >= 1.0)
-         throw new IllegalArgumentException(
-            "Commission rate must be > 0.0 and < 1.0");
-
+      
       this.commissionRate = commissionRate;
    } 
 
-   // return commission rate
+   // Get return commission rate
    public double getCommissionRate()
    {
       return commissionRate;
@@ -80,7 +58,7 @@ public class CommissionEmployee
    @Override 
    public String toString()
    {
-      return String.format("%s: %n%s: %s%n%s: %.2f%n%s: %.2f", 
+      return String.format("%s: %s %n%s: %.2f %n%s: %.2f", 
          "commission employee", getFirstName(), 
          "gross sales", getGrossSales(), 
          "commission rate", getCommissionRate());

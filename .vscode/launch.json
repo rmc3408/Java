@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PolyCat",
+            "request": "launch",
+            "mainClass": "weeks.PolyCat",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Poly1",
+            "request": "launch",
+            "mainClass": "weeks.Poly1",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ExtendsTEST",
+            "request": "launch",
+            "mainClass": "Udemy.ExtendsTEST",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ExtendsTest",
+            "request": "launch",
+            "mainClass": "Udemy.ExtendsTest",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LabelGraphical",
             "request": "launch",
             "mainClass": "weeks.LabelGraphical",

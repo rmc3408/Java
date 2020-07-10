@@ -1,36 +1,28 @@
-package Udemy;
+package weeks;
 
 
-public class BasePlusCommissionEmployee extends CommissionEmployee
+public class Extends1 extends Extends0
 {
    private double baseSalary; // base salary per week
 
    // six-argument constructor
-   public BasePlusCommissionEmployee(String firstName, double grossSales, 
+   public Extends1(String firstName, double grossSales, 
       double commissionRate, double baseSalary)
    {
 	  
       super(firstName, grossSales, commissionRate);                      
 
-      // if baseSalary is invalid throw exception
-      if (baseSalary < 0.0)                   
-         throw new IllegalArgumentException(
-            "Base salary must be >= 0.0");  
-      //initialize the new member here
       this.baseSalary = baseSalary;
    }
    
    // set base salary
    public void setBaseSalary(double baseSalary)
    {
-      if (baseSalary < 0.0)                   
-         throw new IllegalArgumentException(
-            "Base salary must be >= 0.0");  
-
+      
       this.baseSalary = baseSalary;                
    } 
 
-   // return base salary
+   // Get return base salary
    public double getBaseSalary()
    {
       return baseSalary;
@@ -48,7 +40,7 @@ public class BasePlusCommissionEmployee extends CommissionEmployee
    @Override
    public String toString()
    {
-      return String.format("%s %s%n%s: %.2f", "base-salaried",
+      return String.format("%s: %s %n%s: %.2f", "base-salaried",
          super.toString(), "base salary", getBaseSalary());   
    } 
 } 
