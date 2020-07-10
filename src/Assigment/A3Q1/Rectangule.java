@@ -2,52 +2,46 @@ package Assigment.A3Q1;
 
 public class Rectangule {
     
-    protected double width = 1;
-    protected double length = 1;
-
-    public Rectangule(double w, double l)
-    {
-        if ((l > 20 && l < 0) && (w > 20 && w < 0)) {
-            throw new IllegalArgumentException("Out of range");
-        }
-        this.length = l;
-        this.width = w;
-        System.out.printf("Rectangle Object created");
-    }
+    //Attributes with default of 1/
+    protected float width = 1;
+    protected float length = 1;
+   
 
     // get methods
-    public double length(){
+    public float length(){
         return length;
     }
-    public double width(){
+    public float width(){
         return width;
     }
 
     // set methods
-    public void length(double len){
+    public void length(float len){
         if (len > 20 && len < 0) {
             throw new IllegalArgumentException("Out of range");
         }
         this.length = len;
     }
-    public void width(double wid){
+    public void width(float wid){
         if (wid > 20 && wid < 0) {
             throw new IllegalArgumentException("Out of range");
         }
         this.width = wid;
     }
+
+    // Method to calculate perimeter
     public void calcPerimeter(){
         
-        double peri;
+        float peri;
         peri = 2 * (length() + width());
-        System.out.println(peri);
+        System.out.printf("The perimeter is %.2f%n", peri);
 
     }
     public void calcArea(){
         
-        double area;
+        float area;
         area = length() * width();
-        System.out.println(area);
+        System.out.printf("The Area is %.2f%n", area);
 
     }
 
