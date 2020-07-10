@@ -1,4 +1,4 @@
-package Assigment.A3;
+package Assigment.A3Q1;
 
 
 public class Rectangule {
@@ -48,6 +48,6 @@ public class Rectangule {
         System.out.println(area);
 
     }
-    
+
 
 }
