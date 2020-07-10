@@ -1,6 +1,6 @@
 package Udemy;
 
-public class object {
+public class Testing {
     
 
     public static void main(String[] args)
