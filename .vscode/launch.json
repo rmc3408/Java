@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Testing",
+            "request": "launch",
+            "mainClass": "Udemy.Testing",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ExtendsTEST",
             "request": "launch",
             "mainClass": "weeks.ExtendsTEST",
