@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Square",
+            "request": "launch",
+            "mainClass": "Assigment.A3Q2.Square",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Testing",
             "request": "launch",
             "mainClass": "Udemy.Testing",

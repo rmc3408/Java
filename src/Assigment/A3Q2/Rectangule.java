@@ -12,7 +12,7 @@ public class Rectangule {
         }
         this.length = l;
         this.width = w;
-        System.out.printf("Rectangle Object created");
+        System.out.printf("Rectangle Object created%n");
     }
 
     // get methods
