@@ -8,7 +8,6 @@ public class Square extends Rectangule{
         super(w, l);
         this.side = s;
         System.out.println("which is SQUARE!");
-
     }
     public static void main(String[] args) 
 	{
