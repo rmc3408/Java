@@ -2,13 +2,13 @@ package Assigment.A3Q2;
 
 public class Rectangule {
     
-    protected double width = 1;
-    protected double length = 1;
+    protected double width;
+    protected double length;
 
     public Rectangule(double w, double l)
     {
-        if ((l > 20 && l < 0) && (w > 20 && w < 0)) {
-            throw new IllegalArgumentException("Out of range");
+        if ((l > 20 || l < 0) || (w > 20 || w < 0)) {
+            throw new IllegalArgumentException("One item is out of range");
         }
         this.length = l;
         this.width = w;
@@ -25,13 +25,13 @@ public class Rectangule {
 
     // set methods
     public void length(double len){
-        if (len > 20 && len < 0) {
+        if (len > 20 || len < 0) {
             throw new IllegalArgumentException("Out of range");
         }
         this.length = len;
     }
     public void width(double wid){
-        if (wid > 20 && wid < 0) {
+        if (wid > 20 || wid < 0) {
             throw new IllegalArgumentException("Out of range");
         }
         this.width = wid;
@@ -40,14 +40,14 @@ public class Rectangule {
         
         double peri;
         peri = 2 * (length() + width());
-        System.out.println(peri);
+        System.out.printf("The perimeter is %.2f%n", peri);
 
     }
     public void calcArea(){
         
         double area;
         area = length() * width();
-        System.out.println(area);
+        System.out.printf("The Area is %.2f%n", area);
 
     }
 
