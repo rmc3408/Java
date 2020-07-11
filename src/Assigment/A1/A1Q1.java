@@ -1,4 +1,4 @@
-package Assigment;
+package Assigment.A1;
 import java.util.Scanner;
 
 
