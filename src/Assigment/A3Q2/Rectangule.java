@@ -36,18 +36,20 @@ public class Rectangule {
         }
         this.width = wid;
     }
+    
     public void calcPerimeter(){
         
         double peri;
         peri = 2 * (length() + width());
-        System.out.printf("The perimeter is %.2f%n", peri);
+        System.out.printf("The perimeter of Rectangule is %.2f%n", peri);
 
     }
+    
     public void calcArea(){
         
         double area;
         area = length() * width();
-        System.out.printf("The Area is %.2f%n", area);
+        System.out.printf("The Area of Rectangule is %.2f%n", area);
 
     }
 

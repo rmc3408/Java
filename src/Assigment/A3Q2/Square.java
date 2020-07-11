@@ -2,22 +2,23 @@ package Assigment.A3Q2;
 
 public class Square extends Rectangule{
     
-    protected double side;
-
-    public Square(double w, double l, double s){
-        super(w, l);
-        this.side = s;
+    public Square(double s){
+        super(s, s);
         System.out.println("which is SQUARE!");
     }
-    public static void main(String[] args) 
-	{
-        Rectangule shape1 = new Rectangule(10, 5);
-        shape1.calcArea();
-        shape1.calcPerimeter();
+    @Override
+    public void calcPerimeter(){
+        
+        double peri;
+        peri = 2 * (length() + width());
+        System.out.printf("The perimeter of Square is %.2f%n", peri);
 
-        Square shape2 = new Square(10, 3, 2);
-        shape2.calcArea();
-        shape2.calcPerimeter();
     }
-
+    @Override
+    public void calcArea(){
+        
+        double area;
+        area = length() * width();
+        System.out.printf("The Area of Square is %.2f%n", area);
+    }
 }
