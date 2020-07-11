@@ -9,7 +9,7 @@ public class Test {
         myRet.calcPerimeter();
         myRet.calcArea();
         System.out.printf("-----------------------------%n");
-        Square mySq = new Square(4);
+        Square mySq = new Square(5);
         mySq.calcPerimeter();
         mySq.calcArea();
     }

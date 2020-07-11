@@ -4,7 +4,7 @@ public class Test{
     public static void main(String[] args) 
 	{
     	//declare fields values
-        float wid = 12;
+        float wid = 5;
         float len = 140;
 
         // istantiate a object from Rectangule.
