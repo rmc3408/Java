@@ -102,12 +102,18 @@ element’s value.
 
 
 
-** Method call stack. Is the order methods are pile in memory.
-mehtod how program return to caller. (PILE of DISHES)
+***** Stack an Heap *****
+How code is organized.
+
+_Stack_ = Is the order methods are pile of reference in memory.
+_Heap_ is large portion of memory = where data is saved.
+
+
+Method how program return to caller. (PILE of DISHES)
 
 Fist is push onto bottom of pile. Lat item onto stack(on top) will be the first to be called (popped out). 
 
-Argument promotion - converting an argument’s value, method receive parameter integers but will return double. They are automatic converted.
+1) Argument promotion - converting an argument’s value, method receive parameter integers but will return double. They are automatic converted.
 
 
 * Non-static methods are typically called instance methods.
@@ -152,8 +158,19 @@ If a class does not define constructors, the compiler provides a default constru
 
 
 ## Week 01
-Scanner out = Display data to screen or printer
 
+* Primitives just assign a value
+datatype primitive = byte, short, int, double, float, char, long and boolean.
+
+* Objects created using new keyword.
+datatype reference.
+
+data is reference where object exist.
+
+
+
+-----------
+Scanner out = Display data to screen or printer
 Scanner in = Get USER input from object, file, mouse , keyboard
 
 
