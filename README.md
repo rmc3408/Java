@@ -125,6 +125,7 @@ Fist is push onto bottom of pile. Lat item onto stack(on top) will be the first 
 
 1) Argument promotion - converting an argument’s value, method receive parameter integers but will return double. They are automatic converted.
 
+--- the term "class member" is used to specifically refer to static methods and static variables.
 
 * Non-static methods are typically called instance methods.
 Call by `ObjectName.method` 
