@@ -3,12 +3,16 @@ import java.awt.Point;
 
 public class Methods {
 
+    static int count = 1;
+    int num = 0;
+
 	public static void main(String[] args) 
 	{
 		
 		System.out.printf("The Square of int = %d.%n", square(7));
 		System.out.printf("The Square of float = %.2f%n", square(7.5));
-		
+        // nostatic(); Can NOT call non-static.
+        yesStatic();
 
 	}
 	public static int square(int x) 
@@ -20,7 +24,15 @@ public class Methods {
 	{
 		
 		return x*x;
-	}
+    }
+
+
+
+
+    //////////////////////////////
+
+
+
 	public void end()
     {
         String x = "Rapha";
@@ -47,4 +59,21 @@ public class Methods {
         System.out.print(x);
 
     }
+    ////////////////////////////////////////
+
+    
+
+    public void noStatic()
+    {
+        System.out.print(num);
+        System.out.print(count);
+
+    }
+    public static void yesStatic()
+    {
+        // System.out.print(num); ONLY Static Variables works.
+        System.out.print(count);
+
+    }
+
 }

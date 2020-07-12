@@ -4,14 +4,21 @@ import java.awt.Point;
 
 public class Testing {
     
+    static int count = 1;
+    int num = 0;
+
     public void end()
     {
-        String x = "Rapha";
-        boolean xy = x.equals("Raphael");
-        System.out.print(xy);
+        System.out.print(num);
+        System.out.print(count);
 
     }
-    
+    public static void start()
+    {
+        // System.out.print(num); ONLY Static Variables works.
+        System.out.print(count);
+
+    }
 
     public static void main(String[] args)
     {
@@ -24,11 +31,5 @@ public class Testing {
         
     }
 
-    public static void start()
-    {
-        String myStr = "molinaro";
-        boolean x = myStr.equals("Raphael");
-        System.out.print(x);
-
-    }
+    
 }
