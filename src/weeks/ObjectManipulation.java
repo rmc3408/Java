@@ -31,6 +31,8 @@ public class ObjectManipulation {
 		myPoint.x = 2;
 		myPoint.y = 5;
 
+		
+
 
 	// Create a object from other file. 	
 	// calling constructor with 2 parameters
@@ -49,6 +51,8 @@ public class ObjectManipulation {
 		
 		input.close();
 		
+
+
 	}
 
 }

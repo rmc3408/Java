@@ -71,7 +71,7 @@ YOu can using 'this' to initialize and invoke constructor
 the same package.
 
 
-- OBJECT - instance variable 
+----- OBJECT - instance variable 
 Instance Variable = Attributes, Properties, Fields, Member Variables, State.
 
 ````
@@ -157,9 +157,9 @@ _public_ = to be access from other areas, classes.
 _private_ = variables will be only access by same class methods
 
 
-methods = acess modifier + Static(or not) + Return type
+methods = acess modifier + Static(or not) + Return type + nameCamelCasing
 
-Constructor = To create a object. 
+* Constructor = To instantiate a object. After new Keyword.
 If a class does not define constructors, the compiler provides a default constructor with no parameters. But if you declare, default is not created.
 
 
@@ -175,6 +175,8 @@ datatype primitive = byte, short, int, double, float, char, long and boolean.
 
 * Objects are bundle of state and behaviour.
 * Objects created using new keyword.
+
+Object type is called a class.
 datatype reference. - string, array, class, Enum.
 
 data is reference where object exist.
