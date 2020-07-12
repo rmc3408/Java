@@ -70,13 +70,23 @@ YOu can using 'this' to initialize and invoke constructor
 ---- Non-public classes can be used only by other classes in
 the same package.
 
-##### NO Properties , they call methods
 
-* Set methods are called mutator methods
+- OBJECT - instance variable 
+Instance Variable = Attributes, Properties, Fields, Member Variables, State.
+
+````
+Point m = new Point();
+        m.x =2;
+        m.y =5;
+````
+
+##### NO Properties with GET and SET, instead they call methods
+
+* Set methods are called MUTATOR methods
+* Get methods are called ACESSOR methods or query methods
 
 Used to attempts to modify the variable’s value 
 
-* Get methods are called accessor methods or query methods
 
 
 
@@ -162,8 +172,10 @@ If a class does not define constructors, the compiler provides a default constru
 * Primitives just assign a value
 datatype primitive = byte, short, int, double, float, char, long and boolean.
 
+
+* Objects are bundle of state and behaviour.
 * Objects created using new keyword.
-datatype reference.
+datatype reference. - string, array, class, Enum.
 
 data is reference where object exist.
 
