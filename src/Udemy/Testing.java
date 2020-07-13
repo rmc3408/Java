@@ -32,6 +32,12 @@ public class Testing {
         start();
         start();
         start();
+
+        float div = 3.14559f;
+        System.out.printf("the division is %8.1f%n", div); //4 space before number
+		System.out.printf("the division is %-8.1f%n", div); //4 space after number
+		System.out.printf("the division is %08.1f%n", div); //zero in 4 space before number
+
         //Testing.end();
         
     }

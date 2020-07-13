@@ -227,6 +227,10 @@ data is reference where object exist.
 Scanner out = Display data to screen or printer
 Scanner in = Get USER input from object, file, mouse , keyboard
 
+Em prinln....
+%4.1f --> 4 space before number
+%-4.1f --> 4 space after number
+%04.1f --> zero in 4 space before number
 
 * Class name = Capital letter in every word - Pascal casing
 * variable = caMel Casing.

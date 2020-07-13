@@ -27,9 +27,9 @@ public class StringNumberManipulation {
 		System.out.printf("primitive datatype is %b%n%n", i);	
 			
 		//System.out.printf("the division is %f%n", div);
-		System.out.printf("the division is %8.1f%n", div); //space before number
-		System.out.printf("the division is %-8.1f%n", div); //space after number
-		System.out.printf("the division is %08.1f%n", div); //zero in 4 space before number
+		System.out.printf("the division is %4.1f%n", div); //4 space before number
+		System.out.printf("the division is %-4.1f%n", div); //4 space after number
+		System.out.printf("the division is %04.1f%n", div); //zero in 4 space before number
 		
 		System.out.printf("the division is %.2f%n", div);
 		
