@@ -51,6 +51,19 @@ public String toString()
 
 
 
+* Garbage collection
+Every object uses system resources, such as memory. When there are no more references to an object, the object is eligible to be collected.
+Dont use finalize, Use Close
+
+* ENUM are reference type, like classes. Write in lowercase!!!
+
+``` public enum ListOfOption ```
+
+they are final(constant) and static. 
+You cannot create object.
+
+We can have fields, methods of class Enum.
+
 
 
 - Composition = Has a relationship. 
@@ -146,7 +159,12 @@ Fist is push onto bottom of pile. Lat item onto stack(on top) will be the first 
 
 1) Argument promotion - converting an argument’s value, method receive parameter integers but will return double. They are automatic converted.
 
+
+
 --- the term __"class member"__ is used to specifically refer to static methods and static variables.
+--- the term __"class variable"__ is used to specifically refer to static fields.
+
+A ``static import`` declaration enables you to import the static members of a class or interface 
 
 * Non-static methods are typically called instance methods.
 Call by `ObjectName.method` 
