@@ -1,14 +1,20 @@
 # Java lectures from Centennial 
 
-PAROU NO SLIDE 29 - week04
+
 
 
 ## Week 05
 
-* Inheritance = 
+* Inheritance = specialization = Is-a relatioship
 ``` extends ```
+inherits all members = fields and methods.
+protected members also have package access.
 
-members = fields and methods.
+direct superclass = has extends
+
+indirect superclass = like Object class
+
+
 
 1) Superclass = more general.
 2) subclass = more specific.
@@ -23,7 +29,7 @@ _Main Issue_ = A subclass can inherit methods that it does not need.
 
 
 * protected keyword
-Access only inside same subclass, not external.
+Access only inside same class, subclass or package.. but not external.
 
 
 * private keyword
@@ -32,7 +38,9 @@ Access only inside same class, not Subclass , neither external.
 
 
 * @Overrides 
-To override any method from a superclass method. OPTIONAL.
+To override any method from a superclass method. OPTIONAL label.
+
+Afer override, the method from superclass can be accessed with `super.method()`
 
 ```
 @Overrides
