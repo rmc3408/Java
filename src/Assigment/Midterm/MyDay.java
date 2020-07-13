@@ -1,4 +1,4 @@
-package Assigment;
+package Assigment.Midterm;
 
 public class MyDay {
 
