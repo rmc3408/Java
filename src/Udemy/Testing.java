@@ -11,12 +11,14 @@ public class Testing {
     {
         System.out.print(num);
         System.out.print(count);
+    
 
     }
     public static void start()
     {
         // System.out.print(num); ONLY Static Variables works.
-        System.out.print(count);
+        System.out.println(count);
+        Testing.count++;
 
     }
 
@@ -28,6 +30,9 @@ public class Testing {
         
         System.out.println(m.x + " " + m.y);
         start();
+        start();
+        start();
+        //Testing.end();
         
     }
 
