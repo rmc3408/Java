@@ -131,4 +131,4 @@ public class Time2
          ((getHour() == 0 || getHour() == 12) ? 12 : getHour() % 12),
          getMinute(), getSecond(), (getHour() < 12 ? "AM" : "PM"));
    } 
-} /
+} 
