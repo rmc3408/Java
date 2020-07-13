@@ -49,16 +49,34 @@ public String toString()
 
 ## Week 04
 
-Differentiate by (1) type, (2) number of parameters and (3) order.
+
+
+
+
+- Composition = Has a relationship. 
+ex: employee get time from Time3 class.
+
+- Is-a relationship = Inheritance
+ex: users extends employees.
+
+
+* Overloaded constructors enable objects of a class to be initialized in different ways depending of type, number, order
+Methods or Constructors --> Differentiate by (1) type, (2) number of parameters and (3) order.
+
 
 When it does not declare a constructor, so the compiler supplies a default constructor with no parameters. HOVEWER, Once you declare any constructors in a class, the compiler will not provide a default constructor
+
+
 
 __Exceptions__
 throw + TYPE + "msg"; - throws an exception string message returned to the calling method.
 
 _TRY_ and _CATCH_ is a block to Test and what to do in case error.
 
+
+
 * If clients dont need to know how and hide methods and variables, say PRIVATE. Only the object create (myRaphaelAccount) will see those variables and specific methods. 
+
 
 * Every object can access a reference to itself with keyword
 _this_ , every object is created in that class. Can be reference as this.
@@ -66,7 +84,7 @@ _this_ , every object is created in that class. Can be reference as this.
 YOu can using 'this' to initialize and invoke constructor
 ``` this(0, 0, 0); ``` 
 
-* Overloaded constructors enable objects of a class to be initialized in different ways depending of type, number, order
+
 
 ---- A source-code file can contain only one public class 
 
