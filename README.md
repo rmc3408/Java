@@ -32,7 +32,7 @@ Access only inside same class, not Subclass , neither external.
 
 
 * @Overrides 
-To override any method from a superclass method. 
+To override any method from a superclass method. OPTIONAL.
 
 ```
 @Overrides
@@ -49,6 +49,9 @@ public String toString()
 
 ## Week 04
 
+* final
+constant are immunatable, high security level
+`` private final int num = 1; ``
 
 
 * Garbage collection
@@ -169,7 +172,7 @@ A ``static import`` declaration enables you to import the static members of a cl
 * Non-static methods are typically called instance methods.
 Call by `ObjectName.method` 
 
-* Static method wii be a method performs a task that does not depend on an object. Just to perform tasks.
+* Static method wii be a method performs a task that does not depend on an object. Just to perform tasks and no object.So, do not have `this`
 Call by `ClassName.Method`
 if in same class, just method name.
 
