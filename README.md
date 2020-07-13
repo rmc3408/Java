@@ -49,26 +49,29 @@ public String toString()
 
 ## Week 04
 
-When it does not declare a constructor, so the compiler supplies a default constructor with no parameters. HOVEWER, Once you declare any constructors in a class, the compiler will
-not provide a default constructor
+Differentiate by (1) type, (2) number of parameters and (3) order.
+
+When it does not declare a constructor, so the compiler supplies a default constructor with no parameters. HOVEWER, Once you declare any constructors in a class, the compiler will not provide a default constructor
 
 __Exceptions__
 throw + TYPE + "msg"; - throws an exception string message returned to the calling method.
 
 _TRY_ and _CATCH_ is a block to Test and what to do in case error.
 
-* If clients dont need to know how and hide methods and variables, say PRIVATE.
+* If clients dont need to know how and hide methods and variables, say PRIVATE. Only the object create (myRaphaelAccount) will see those variables and specific methods. 
 
 * Every object can access a reference to itself with keyword
-_this_
+_this_ , every object is created in that class. Can be reference as this.
+
 YOu can using 'this' to initialize and invoke constructor
 ``` this(0, 0, 0); ``` 
 
 * Overloaded constructors enable objects of a class to be initialized in different ways depending of type, number, order
 
 ---- A source-code file can contain only one public class 
+
 ---- Non-public classes can be used only by other classes in
-the same package.
+the same package. (Like Math is the main class... and have non-public as Pow, max, square,...)
 
 
 ----- OBJECT - instance variable 
@@ -125,7 +128,7 @@ Fist is push onto bottom of pile. Lat item onto stack(on top) will be the first 
 
 1) Argument promotion - converting an argument’s value, method receive parameter integers but will return double. They are automatic converted.
 
---- the term "class member" is used to specifically refer to static methods and static variables.
+--- the term __"class member"__ is used to specifically refer to static methods and static variables.
 
 * Non-static methods are typically called instance methods.
 Call by `ObjectName.method` 
@@ -153,7 +156,7 @@ classes are typically grouped into __packages__ so that they can be imported int
 
 Classes and methods help you modularize a program by separating its tasks into self-contained units.
 
-
+__Access modifiers__   
 _public_ = to be access from other areas, classes.
 _private_ = variables will be only access by same class methods
 
