@@ -48,8 +48,8 @@ public class BaseComission extends CommissionEmployee
          "base-salaried commission employee", firstName, lastName, 
          "social security number", socialSecurityNumber, 
          "gross sales", grossSales, "commission rate", commissionRate,
-         "base salary", baseSalary)
-         + "%n---> Earnings: " + super.earnings();
+         "base salary", baseSalary) + "---> Earnings:" + super.earnings();
+
    } 
    
 } 
