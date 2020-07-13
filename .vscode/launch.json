@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CommissionEmployeeTest",
+            "request": "launch",
+            "mainClass": "examples.CommissionEmployeeTest",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BaseComissionTest",
+            "request": "launch",
+            "mainClass": "examples.BaseComissionTest",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Test",
             "request": "launch",
             "mainClass": "Assigment.A3Q2.Test",

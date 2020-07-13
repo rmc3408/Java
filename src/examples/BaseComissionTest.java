@@ -8,8 +8,7 @@ public class BaseComissionTest
    public static void main(String[] args) 
    {
       // instantiate BasePlusCommissionEmployee object
-      BaseComission employee = 
-         new BaseComission(
+      BaseComission employee = new BaseComission(
          "Bob", "Lewis", "333-33-3333", 5000, .04, 300);
       
       
@@ -29,9 +28,17 @@ public class BaseComissionTest
          employee.getBaseSalary());
 
       employee.setBaseSalary(1000); 
+
+      System.out.printf("%n----------------%n");
       
       System.out.printf("%n%s:%n%n%s%n", 
          "Updated employee information obtained by toString", 
          employee.toString());
+      
+      
+
+      
+
+      
    } 
 } 
