@@ -1,9 +1,34 @@
 # Java lectures from Centennial 
 
 
+## Week 06
+
+
+
+
+Interfaces are particularly useful for assigning common functionality to possibly unrelated classes.
+
+* Polymorphism enables:
+1) “program in the general”
+2) Process objects that share the same superclass as if they were all objects of the superclass;
+3) We can design and implement systems that are easily extensible.
+
+
+Animal(superclass) move message extends to:
+– a Fish might swim three feet
+– a Frog might jump five feet
+– a Bird might fly ten feet.
+
+
+
+
 
 
 ## Week 05
+
+A __shallow copy__ can be made by simply copying the reference
+A __deep copy__ means actually creating a new array and copying over the values
+
 
 * Inheritance = specialization = Is-a relatioship
 ``` extends ```
