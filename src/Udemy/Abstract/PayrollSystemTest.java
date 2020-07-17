@@ -66,8 +66,10 @@ public class PayrollSystemTest
             "earned $%,.2f%n%n", currentEmployee.earnings());
       } 
 
-      
+
       // get type name of each object in employees array
+      // getClass is from Object class.
+      
       for (int j = 0; j < employees.length; j++)
          System.out.printf("Employee %d is a %s%n", j, 
             employees[j].getClass().getName()); 
