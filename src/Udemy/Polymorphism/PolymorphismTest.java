@@ -1,4 +1,4 @@
-package Udemy;
+package Udemy.Polymorphism;
 
 // Fig. 10.1: PolymorphismTest.java
 // Assigning superclass and subclass references to superclass and
