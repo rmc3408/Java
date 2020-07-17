@@ -46,4 +46,7 @@ public abstract class Employee
 
    // abstract method must be overridden by concrete subclasses
    public abstract double earnings(); // no implementation here
-} // end abstract class Employee
+
+
+
+} 

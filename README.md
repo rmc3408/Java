@@ -45,12 +45,13 @@ You never intend to create objects. Acts as desgin and are too general. They are
 3) abstract superclasses to declare variables
 
 
-* Dynamic binding
+* Dynamic binding (late binding in abstract class)
 When the compiler see a method call using variable’s class type. Create a object but use model as superclass.
 
+------------------------
 ` Animal mypet = new Cat() `
-
--- superclass reference at a subclass object.
+~ THIS case, superclass reference at a subclass variable object.
+------------------------
 
 the type of the referenced object, not the type of the variable determines which method is called. BEcause is-a relationship applies only up the hierarchy.
 
@@ -58,8 +59,6 @@ THERE IS A technique known as downcasting that enables a program to invoke subcl
 
 A technique known as downcasting that enables a program to invoke subclass methods that are not in the superclass.
 
-
-* late binding.
 superclass reference to invoke method.
 subclass concentre each method.
 
@@ -75,6 +74,8 @@ A final class cannot be extended to create a subclass.
 _Static binding_ Once declare a final method, subclasses use the same method implementation.
 
 - example: Class String is an example of a final class
+
+
 
 - Concrete classes
 Classes that can be used to instantiate objects. more specific.

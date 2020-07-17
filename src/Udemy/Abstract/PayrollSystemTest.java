@@ -66,24 +66,14 @@ public class PayrollSystemTest
             "earned $%,.2f%n%n", currentEmployee.earnings());
       } 
 
+      
       // get type name of each object in employees array
       for (int j = 0; j < employees.length; j++)
          System.out.printf("Employee %d is a %s%n", j, 
             employees[j].getClass().getName()); 
+
+
+
+
    } // end main
 } // end class PayrollSystemTest
-
-/**************************************************************************
- * (C) Copyright 1992-2014 by Deitel & Associates, Inc. and               *
- * Pearson Education, Inc. All Rights Reserved.                           *
- *                                                                        *
- * DISCLAIMER: The authors and publisher of this book have used their     *
- * best efforts in preparing the book. These efforts include the          *
- * development, research, and testing of the theories and programs        *
- * to determine their effectiveness. The authors and publisher make       *
- * no warranty of any kind, expressed or implied, with regard to these    *
- * programs or to the documentation contained in these books. The authors *
- * and publisher shall not be liable in any event for incidental or       *
- * consequential damages in connection with, or arising out of, the       *
- * furnishing, performance, or use of these programs.                     *
- *************************************************************************/
