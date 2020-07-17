@@ -3,8 +3,25 @@
 
 ## Week 06
 
+### Polymorphism enables:
+1) “program in the general”
+2) Process objects that share the same superclass as if they were all objects of the superclass;
+3) We can design and implement systems that are easily extensible.
 
-- Interface
+
+Animal(superclass) move message extends to:
+– a Fish might swim three feet
+– a Frog might jump five feet
+– a Bird might fly ten feet.
+
+Polymorphism is particularly effective for implementing so-called _layered software systems_.
+
+
+
+
+
+
+### Interface
 Interfaces are particularly useful for assigning common functionality to possibly unrelated classes.
 ` public class _ClassName_ extends _SuperclassName_ implements _InterfaceName_ `
 
@@ -15,19 +32,25 @@ Interfaces are particularly useful for assigning common functionality to possibl
 
 
 
-- Abstract classes
+### Abstract classes
 
-you never intend to create objects. Acts as desgin and are too general. They are Used only as superclasses.
+You never intend to create objects. Acts as desgin and are too general. They are Used only as superclasses.
 
   ** An abstract class normally contains one or more abstract methods.
   ** An abstract method is an instance method with keyword abstract
         `public abstract void draw.`
 
-* abstract classes cannot have Implementations(interface)
-* Constructors and static methods cannot be declared abstract.
-* abstract superclasses to declare variables
+1) abstract classes cannot have Implementations(interface)
+2) Constructors and static methods cannot be declared abstract.
+3) abstract superclasses to declare variables
 
-* Known as dynamic binding or late binding.
+
+* dynamic binding
+When the compiler see a method call using variable’s class type.
+` Animal mypet = new Cat() `
+
+
+* late binding.
 superclass reference to invoke method.
 subclass concentre each method.
 
@@ -57,18 +80,7 @@ A technique known as downcasting that enables a program to invoke subclass metho
 
 
 
-* Polymorphism enables:
-1) “program in the general”
-2) Process objects that share the same superclass as if they were all objects of the superclass;
-3) We can design and implement systems that are easily extensible.
 
-
-Animal(superclass) move message extends to:
-– a Fish might swim three feet
-– a Frog might jump five feet
-– a Bird might fly ten feet.
-
-Polymorphism is particularly effective for implementing so-called _layered software systems_.
 
 
 
