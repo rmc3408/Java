@@ -17,21 +17,6 @@ Animal(superclass) move message extends to:
 Polymorphism is particularly effective for implementing so-called _layered software systems_.
 
 
-
-
-
-
-### Interface
-Interfaces are particularly useful for assigning common functionality to possibly unrelated classes.
-` public class _ClassName_ extends _SuperclassName_ implements _InterfaceName_ `
-
-
-
-
-
-
-
-
 ### Abstract classes
 
 You never intend to create objects. Acts as desgin and are too general. They are Used only as superclasses.
@@ -75,15 +60,15 @@ _Static binding_ Once declare a final method, subclasses use the same method imp
 
 - example: Class String is an example of a final class
 
-
-
 - Concrete classes
 Classes that can be used to instantiate objects. more specific.
 
 
 
 
-
+### Interface
+Interfaces are particularly useful for assigning common functionality to possibly unrelated classes.
+` public class _ClassName_ extends _SuperclassName_ implements _InterfaceName_ `
 
 
 
