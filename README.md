@@ -4,9 +4,35 @@
 ## Week 06
 
 
-
-
+- Interface
 Interfaces are particularly useful for assigning common functionality to possibly unrelated classes.
+` public class _ClassName_ extends _SuperclassName_ implements _InterfaceName_ `
+
+- Abstract classes
+you never intend to create objects. Acts as desgin and are too general. They are Used only as superclasses.
+
+  ** An abstract class normally contains one or more abstract methods.
+  ** An abstract method is an instance method with keyword abstract
+        `public abstract void draw.`
+
+* abstract classes cannot have Implementations(interface)
+* Constructors and static methods cannot be declared abstract.
+* abstract superclasses to declare variables
+
+
+- Concrete classes
+Classes that can be used to instantiate objects. more specific.
+
+
+- superclass reference at a subclass object.
+the type of the referenced object, not the type of the variable determines which method is called. BEcause is-a relationship applies only up the hierarchy.
+
+THERE IS A technique known as downcasting that enables a program to invoke subclass methods that are not in the superclass.
+
+A technique known as downcasting that enables a program to invoke subclass methods that are not in the superclass.
+
+
+
 
 * Polymorphism enables:
 1) “program in the general”
@@ -19,6 +45,7 @@ Animal(superclass) move message extends to:
 – a Frog might jump five feet
 – a Bird might fly ten feet.
 
+Polymorphism is particularly effective for implementing so-called _layered software systems_.
 
 
 
