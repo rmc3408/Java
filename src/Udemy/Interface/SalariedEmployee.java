@@ -1,6 +1,6 @@
-package Fig10_11_15;
+package Udemy.Interface;
 
-// Fig. 10.14: SalariedEmployee.java
+
 // SalariedEmployee class that implements interface Payable.
 // method getPaymentAmount.
 public class SalariedEmployee extends Employee 
