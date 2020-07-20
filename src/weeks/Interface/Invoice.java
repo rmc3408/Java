@@ -1,4 +1,4 @@
-package Udemy.Interface;
+package weeks.Interface;
 
 // Invoice class that implements Payable.
 

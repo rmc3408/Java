@@ -1,4 +1,4 @@
-package Udemy.Interface;
+package weeks.Interface;
 
 
 // Payable interface declaration.

@@ -1,4 +1,4 @@
-package Udemy.Interface;
+package weeks.Interface;
 
 
 // SalariedEmployee class that implements interface Payable.

@@ -1,4 +1,4 @@
-package Udemy.Polymorphism;
+package weeks.Polymorphism;
 
 // Fig. 9.11: BasePlusCommissionEmployee.java
 // BasePlusCommissionEmployee class inherits from CommissionEmployee 

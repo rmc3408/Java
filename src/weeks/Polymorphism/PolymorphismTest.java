@@ -1,4 +1,4 @@
-package Udemy.Polymorphism;
+package weeks.Polymorphism;
 
 
 // Assigning superclass and subclass references to superclass and
