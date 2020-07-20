@@ -54,9 +54,8 @@ public class SuperClass
    @Override 
    public String toString()
    {
-      return String.format("%s: %s %s%n%s: %s%n%s: %.2f%n%s: %.2f", 
-         "commission employee",
-         "gross sales", getGrossSales(), 
-         "commission rate", getCommissionRate());
+      return String.format("%s: %.2f%n %s: %.2f%n",
+        "Gross sales", getGrossSales(), 
+         "Commission rate", getCommissionRate());
    } 
 } 

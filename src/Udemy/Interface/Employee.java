@@ -3,7 +3,7 @@ package Udemy.Interface;
 
 // Employee abstract superclass that implements Payable.
 
-public abstract class Employee implements Payable
+public abstract class Employee implements IPayable
 {
    private final String firstName;
    
@@ -12,8 +12,7 @@ public abstract class Employee implements Payable
    public Employee(String firstName)
    {
       this.firstName = firstName;
-      this.lastName = lastName;
-      this.socialSecurityNumber = socialSecurityNumber;
+      
    } 
 
    // return first name
@@ -22,24 +21,13 @@ public abstract class Employee implements Payable
       return firstName;
    } 
 
-   // return last name
-   public String getLastName()
-   {
-      return lastName;
-   } 
-
-   // return social security number
-   public String getSocialSecurityNumber()
-   {
-      return socialSecurityNumber;
-   } 
+   
 
    // return String representation of Employee object
    @Override
    public String toString()
    {
-      return String.format("%s %s%nsocial security number: %s", 
-         getFirstName(), getLastName(), getSocialSecurityNumber());
+      return String.format("Name: %s%n", getFirstName());
    }
 
    // Note: We do not implement Payable method getPaymentAmount here so 

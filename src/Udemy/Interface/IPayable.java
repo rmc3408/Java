@@ -3,7 +3,7 @@ package Udemy.Interface;
 
 // Payable interface declaration.
 
-public interface Payable 
+public interface IPayable 
 {    
    double getPaymentAmount(); // calculate payment; no implementation
 }
