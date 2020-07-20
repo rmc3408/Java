@@ -8,6 +8,13 @@
             "type": "java",
             "name": "CodeLens (Launch) - PolymorphismTest",
             "request": "launch",
+            "mainClass": "Udemy.Polymorphism.PolymorphismTest",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PolymorphismTest",
+            "request": "launch",
             "mainClass": "Udemy.PolymorphismTest",
             "projectName": "Labs_Java_fd4a3b24"
         },
