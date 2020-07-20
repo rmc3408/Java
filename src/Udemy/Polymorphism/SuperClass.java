@@ -11,8 +11,7 @@ public class SuperClass
    private double commissionRate; // commission percentage
 
    // five-argument constructor
-   public SuperClass(double grossSales, 
-      double commissionRate)
+   public SuperClass(double grossSales, double commissionRate)
    {
       
       this.grossSales = grossSales;
