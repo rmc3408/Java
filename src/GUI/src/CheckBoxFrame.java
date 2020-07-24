@@ -9,10 +9,11 @@ import javax.swing.JCheckBox;
 
 public class CheckBoxFrame extends JFrame 
 {
-   private static final long serialVersionUID = 11L;
-   private final JTextField textField; // displays text in changing fonts
-   private final JCheckBox boldJCheckBox; // to select/deselect bold
-   private final JCheckBox italicJCheckBox; // to select/deselect italic
+   
+	private static final long serialVersionUID = 13849L;
+	private final JTextField textField; // displays text in changing fonts
+	private final JCheckBox boldJCheckBox; // to select/deselect bold
+	private final JCheckBox italicJCheckBox; // to select/deselect italic
    
 
    // CheckBoxFrame constructor adds JCheckBoxes to JFrame
@@ -59,19 +60,4 @@ public class CheckBoxFrame extends JFrame
          textField.setFont(font); 
       } 
    }
-} // end class CheckBoxFrame
-
-/**************************************************************************
- * (C) Copyright 1992-2014 by Deitel & Associates, Inc. and               *
- * Pearson Education, Inc. All Rights Reserved.                           *
- *                                                                        *
- * DISCLAIMER: The authors and publisher of this book have used their     *
- * best efforts in preparing the book. These efforts include the          *
- * development, research, and testing of the theories and programs        *
- * to determine their effectiveness. The authors and publisher make       *
- * no warranty of any kind, expressed or implied, with regard to these    *
- * programs or to the documentation contained in these books. The authors *
- * and publisher shall not be liable in any event for incidental or       *
- * consequential damages in connection with, or arising out of, the       *
- * furnishing, performance, or use of these programs.                     *
- *************************************************************************/
+} 
