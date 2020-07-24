@@ -1,4 +1,4 @@
-package Udemy.Abstract;
+package weeks.Abstract;
 
 // Fig. 10.7: CommissionEmployee.java
 // CommissionEmployee class extends Employee.
