@@ -9,9 +9,11 @@ import javax.swing.JCheckBox;
 
 public class CheckBoxFrame extends JFrame 
 {
+   private static final long serialVersionUID = 11L;
    private final JTextField textField; // displays text in changing fonts
    private final JCheckBox boldJCheckBox; // to select/deselect bold
    private final JCheckBox italicJCheckBox; // to select/deselect italic
+   
 
    // CheckBoxFrame constructor adds JCheckBoxes to JFrame
    public CheckBoxFrame()

@@ -9,6 +9,7 @@ import javax.swing.JOptionPane;
 
 public class TextFieldFrame extends JFrame 
 {
+   private static final long serialVersionUID = 11L;
    private final JTextField textField1; // text field with set size
    private final JTextField textField2; // text field with text
    private final JTextField textField3; // text field with text and size

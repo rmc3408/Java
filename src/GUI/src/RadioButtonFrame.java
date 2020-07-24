@@ -10,6 +10,7 @@ import javax.swing.ButtonGroup;
 
 public class RadioButtonFrame extends JFrame 
 {
+   private static final long serialVersionUID = 11L;
    private JTextField textField; // used to display font changes
    private Font plainFont; // font for plain text
    private Font boldFont; // font for bold text
