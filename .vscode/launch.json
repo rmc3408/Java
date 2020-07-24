@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LabelGraphical",
+            "request": "launch",
+            "mainClass": "LabelGraphical",
+            "projectName": "GUI"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Dialogbox",
             "request": "launch",
             "mainClass": "Dialogbox",
