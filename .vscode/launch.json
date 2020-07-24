@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Dialogbox",
+            "request": "launch",
+            "mainClass": "Dialogbox",
+            "projectName": "GUI"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "weeks.Abstract.Test",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PayableInterfaceTest",
+            "request": "launch",
+            "mainClass": "weeks.Interface.PayableInterfaceTest",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PolymorphismTest",
+            "request": "launch",
+            "mainClass": "weeks.Polymorphism.PolymorphismTest",
+            "projectName": "Labs_Java_fd4a3b24"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PayableInterfaceTest",
             "request": "launch",
             "mainClass": "Udemy.Interface.PayableInterfaceTest",
