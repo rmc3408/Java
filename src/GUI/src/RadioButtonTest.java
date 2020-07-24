@@ -1,6 +1,3 @@
-package fig12_19_20;
-
-// Fig. 12.20: RadioButtonTest.java
 // Testing RadioButtonFrame.
 import javax.swing.JFrame;
 

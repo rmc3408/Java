@@ -1,6 +1,3 @@
-package fig12_19_20;
-
-// Fig. 12.19: RadioButtonFrame.java
 // Creating radio buttons using ButtonGroup and JRadioButton.
 import java.awt.FlowLayout;
 import java.awt.Font;

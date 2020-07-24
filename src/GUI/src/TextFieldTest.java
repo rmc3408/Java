@@ -1,6 +1,3 @@
-package fig12_09_10;
-
-// Fig. 12.10: TextFieldTest.java
 // Testing TextFieldFrame.
 import javax.swing.JFrame;
 
