@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CheckBoxTest",
+            "request": "launch",
+            "mainClass": "CheckBoxTest",
+            "projectName": "GUI"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LabelGraphical",
             "request": "launch",
             "mainClass": "LabelGraphical",
