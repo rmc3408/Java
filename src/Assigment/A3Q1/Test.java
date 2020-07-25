@@ -7,7 +7,7 @@ public class Test{
         float wid = 5;
         float len = 140;
 
-        // istantiate a object from Rectangule.
+        // instantiate a object from Rectangule.
         Rectangule shape = new Rectangule();
 
         // Handle with possible error from Set method to store in fields.
