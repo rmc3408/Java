@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FirstFrame",
+            "request": "launch",
+            "mainClass": "FirstFrame",
+            "projectName": "GUI"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "Hello.Main",
+            "projectName": "FX"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - RadioButtonTest",
             "request": "launch",
             "mainClass": "RadioButtonTest",
