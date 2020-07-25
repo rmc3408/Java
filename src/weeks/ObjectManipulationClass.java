@@ -1,9 +1,12 @@
 package weeks;
 
+//Static Variable
 public class ObjectManipulationClass {
 
 	private String name;
 	private int age;
+	static int serial;
+	int count;
 	
 	public void setName(String name)
 	{
@@ -24,7 +27,8 @@ public class ObjectManipulationClass {
 	{
 		this.name = name;
 		this.age = age;
-		
+		count++;
+		serial = count;	
 	}
 	
 	

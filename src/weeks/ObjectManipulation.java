@@ -33,11 +33,12 @@ public class ObjectManipulation {
 
 		
 
-
+		ObjectManipulationClass.serial = 2;
 	// Create a object from other file. 	
 	// calling constructor with 2 parameters
-		ObjectManipulationClass myAcc = new ObjectManipulationClass("John", 38);
+	ObjectManipulationClass myAcc = new ObjectManipulationClass("John", 38);
 		
+	// myAcc.serial = 2; Not appropriate - serial is associate with class, not object.	
 		Scanner input = new Scanner(System.in);
 		System.out.printf("the name is %s and age of %d .%n%n", myAcc.getName(), myAcc.getAge());
 		System.out.print("What is the real name? ");

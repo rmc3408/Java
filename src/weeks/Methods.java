@@ -61,15 +61,17 @@ public class Methods {
     }
     ////////////////////////////////////////
 
-    
-
+    // if wanna do something related with object - non-static
+    //
     public void noStatic()
     {
         System.out.print(num);
         System.out.print(count);
 
     }
-    public static void yesStatic()
+
+    //If wanna show something related with class(General statement) = static
+    public static void yesStatic() //belong to class, not object
     {
         // System.out.print(num); ONLY Static Variables works.
         System.out.print(count);
