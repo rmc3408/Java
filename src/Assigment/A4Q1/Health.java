@@ -15,6 +15,6 @@ public class Health extends Insurance {
 
     @Override
     public String displayInfo() {
-        return "Health insurance: " + getTypeIns() + " - cost: $" + getMonthlyCost();
+        return getTypeIns() + " insurance cost $" + getMonthlyCost();
     }
 }

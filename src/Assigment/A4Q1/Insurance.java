@@ -6,7 +6,6 @@ public abstract class Insurance {
     double monCost;
 
     public Insurance(String name, double val) {
-        System.out.printf("-- General Insurance Object Created --%n");
         this.typeIns = name;
         this.monCost = val;
     }

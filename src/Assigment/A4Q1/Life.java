@@ -15,6 +15,6 @@ public class Life extends Insurance {
 
     @Override
     public String displayInfo() {
-        return "Life insurance: " + getTypeIns() + " - cost: $" + getMonthlyCost();
+        return getTypeIns() + " insurance cost $" + getMonthlyCost();
     }
 }

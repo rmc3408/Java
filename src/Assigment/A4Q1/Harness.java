@@ -1,43 +1,54 @@
 package Assigment.A4Q1;
 
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class Harness {
 
     public static void main(String[] args) {
 
-        // create subclass objects
+        // User asks for type of insurance
+        Scanner input = new Scanner(System.in);
 
-        // Insurance general01 = new Insurance("Intact", 100); cannot instantiate
-        // abstract
-        Insurance myIns00 = new Health("Super Moon", 1500);
-        Insurance myIns01 = new Life("SunLife", 250001);
-        Health myIns02 = new Health("Sun", 2000);
-        Life myIns03 = new Life("SunLife", 230200);
+        int myChoice = -1;
+        
+        // initialize array with Insurances
+        ArrayList<Insurance> insurances = new ArrayList<Insurance>();
 
-        System.out.println("Insurances processed:");
 
-        System.out.printf("%s%n %s: %s%n%n", myIns00.getClass(), "More Details = ", myIns00.displayInfo());
-        System.out.printf("%s%n %s: %s%n%n", myIns01.getClass(), "More Details =  ", myIns01.displayInfo());
-        System.out.printf("%s%n %s: %s%n%n", myIns02.getClass(), "More Details =  ", myIns02.displayInfo());
-        System.out.printf("%s%n %s: %s%n%n", myIns03.getClass(), "More Details =  ", myIns03.displayInfo());
+        while (myChoice != 0) {
+
+            System.out.println("Choose the following option:");
+            System.out.println("1 - Health Insurance");
+            System.out.println("2 - Life Insurance");
+            System.out.println("0 - Exit");
+            myChoice = input.nextInt();
+
+            System.out.println("Enter the value:");
+            double val = input.nextDouble();
+
+            if (myChoice == 1) {
+
+                insurances.add(new Health("Health", val));
+                
+
+            } else if (myChoice == 2) {
+                insurances.add(new Life("Life", val));
+
+            } else if (myChoice == 0) {
+                break;
+            }
+            input.close();
+        }
 
         // create four-element AbstractClass array
-        Insurance[] insurances = new Insurance[4]; // Create array not creating objects
-
-        // initialize array with Insurances
-        insurances[0] = myIns00;
-        insurances[1] = myIns01;
-        insurances[2] = myIns02;
-        insurances[3] = myIns03;
 
         System.out.printf("%n%nInsurances processed polymorphically:%n%n");
 
         // generically process each element in array
         for (Insurance item : insurances) {
 
-            System.out.println(item);
             System.out.println(item.displayInfo()); // invokes toString
-
-            
 
         }
     }
