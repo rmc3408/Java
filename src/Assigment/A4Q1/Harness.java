@@ -1,7 +1,5 @@
 package Assigment.A4Q1;
 
-import java.util.ArrayList;
-
 public class Harness {
 
     public static void main(String[] args) {
@@ -17,13 +15,13 @@ public class Harness {
 
         System.out.println("Insurances processed:");
 
-        System.out.printf("%s%n %s: %s%n%n", myIns00.getClass(), "Named ", myIns00.displayInfo());
-        System.out.printf("%s%n %s: %s%n%n", myIns01.getClass(), "Named ", myIns01.displayInfo());
-        System.out.printf("%s%n %s: %s%n%n", myIns02.getClass(), "Named ", myIns02.displayInfo());
-        System.out.printf("%s%n %s: %s%n%n", myIns03.getClass(), "Named ", myIns03.displayInfo());
+        System.out.printf("%s%n %s: %s%n%n", myIns00.getClass(), "More Details = ", myIns00.displayInfo());
+        System.out.printf("%s%n %s: %s%n%n", myIns01.getClass(), "More Details =  ", myIns01.displayInfo());
+        System.out.printf("%s%n %s: %s%n%n", myIns02.getClass(), "More Details =  ", myIns02.displayInfo());
+        System.out.printf("%s%n %s: %s%n%n", myIns03.getClass(), "More Details =  ", myIns03.displayInfo());
 
         // create four-element AbstractClass array
-        Insurance[] insurances; // Create array not creating objects
+        Insurance[] insurances = new Insurance[4]; // Create array not creating objects
 
         // initialize array with Insurances
         insurances[0] = myIns00;
@@ -31,7 +29,7 @@ public class Harness {
         insurances[2] = myIns02;
         insurances[3] = myIns03;
 
-        System.out.printf("Insurances processed polymorphically:%n%n");
+        System.out.printf("%n%nInsurances processed polymorphically:%n%n");
 
         // generically process each element in array
         for (Insurance item : insurances) {
@@ -39,21 +37,8 @@ public class Harness {
             System.out.println(item);
             System.out.println(item.displayInfo()); // invokes toString
 
-            // determine whether element is a SubClass
-            if (currentEmployee instanceof SubClass) {
-                // downcast Employee reference to SubClass reference
-                SubClass employee = (SubClass) currentEmployee;
+            
 
-                employee.setBaseSalary(1.10 * employee.getBaseSalary());
-
-                System.out.printf("new base salary with 10%% increase is: $%,.2f%n", employee.getBaseSalary());
-            }
-
-            System.out.printf("earned $%,.2f%n%n", currentEmployee.earnings());
         }
-
-        // get type name of each object in employees array
-        // getClass is from Object class.
-
     }
 }
