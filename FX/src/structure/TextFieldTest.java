@@ -1,3 +1,4 @@
+package structure;
 // Testing TextFieldFrame.
 import javax.swing.JFrame;
 

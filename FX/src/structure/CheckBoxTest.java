@@ -1,3 +1,4 @@
+package structure;
 // Testing CheckBoxFrame.
 import javax.swing.JFrame;
 

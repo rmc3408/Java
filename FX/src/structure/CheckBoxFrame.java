@@ -1,3 +1,7 @@
+package structure;
+
+
+
 // JCheckBoxes and item events.
 import java.awt.FlowLayout;
 import java.awt.Font;

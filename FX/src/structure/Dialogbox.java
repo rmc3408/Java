@@ -1,3 +1,4 @@
+package structure;
 import javax.swing.JOptionPane ;
 
 public class Dialogbox {

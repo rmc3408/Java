@@ -1,3 +1,4 @@
+package structure;
 // JTextFields and JPasswordFields.
 import java.awt.FlowLayout;
 import java.awt.event.ActionListener;

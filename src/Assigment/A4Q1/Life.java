@@ -5,12 +5,12 @@ public class Life extends Insurance {
     public Life(String name, double val) {
 
         super(name, val);
-        System.out.printf("-- Life Object Created --%n");
+        System.out.printf("-- Life Object Created --%n%n%n");
     }
 
     @Override
     public void setInsuranceCost(double val) {
-        super.monCost = val;
+        super.monCost = super.monCost + 2 + val;
     }
 
     @Override

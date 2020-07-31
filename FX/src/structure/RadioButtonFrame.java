@@ -1,3 +1,4 @@
+package structure;
 // Creating radio buttons using ButtonGroup and JRadioButton.
 import java.awt.FlowLayout;
 import java.awt.Font;

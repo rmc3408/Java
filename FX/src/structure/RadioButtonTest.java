@@ -1,3 +1,4 @@
+package structure;
 // Testing RadioButtonFrame.
 import javax.swing.JFrame;
 
