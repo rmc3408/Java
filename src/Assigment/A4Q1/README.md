@@ -1,12 +1,9 @@
 Q1. Write a Java application that implements different types of insurance policies for employees of an organization.
-
 Let Insurance be an abstract superclass and Health and Life two of its subclasses that describe
 respectively health insurance and life insurance.
+*** The Insurance class defines an instance variable of type String to describe the type of insurance and an instance variable of type double to hold the monthly cost of that insurance.
+Implement the get methods for both variables of class Insurance. Declare also two abstract methods named setInsuranceCost() and displayInfo() for this class.
 
-* The Insurance class defines an instance variable of type String to describe the type of insurance
-and an instance variable of type double to hold the monthly cost of that insurance.*
-Implement the get methods for both variables of class Insurance. Declare also two abstract
-methods named setInsuranceCost() and displayInfo() for this class.
 
 The Life and Health class should implement setInsuranceCost and display methods by setting
 the appropriate monthly fee and display the information for each insurance type.

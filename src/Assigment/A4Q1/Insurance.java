@@ -1,19 +1,26 @@
 package Assigment.A4Q1;
 
 public abstract class Insurance {
-    
+
     String typeIns;
     double monCost;
 
-    public String getTypeIns()
-    {
+    public Insurance(String name, double val) {
+        System.out.printf("-- General Insurance Object Created --%n");
+        this.typeIns = name;
+        this.monCost = val;
+    }
+
+    public String getTypeIns() {
         return typeIns;
     }
-    public double getMonthlyCost()
-    {
+
+    public double getMonthlyCost() {
         return monCost;
     }
-    abstract double setInsurance();
+
+    abstract void setInsuranceCost(double v);
+
     abstract String displayInfo();
 
 }
