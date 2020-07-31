@@ -13,6 +13,7 @@ the insurance information.
 
 As you create each insurance object, place an Insurance reference to each new Insurance object
 into an array.
+
  Each class has its own setInsuranceCost method. Write a polymorphic screen 
 to manager that walks through the array sending setInsuranceCost messages to each object in the
 array and displaying this information on the screen.
