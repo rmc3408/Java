@@ -5,15 +5,20 @@ public abstract class Mortgages implements MortgageConstants {
 	String name;
 	double amount;
 	double rate;
-	Term duration;
+	Term duration = Term.SHORT;
 
 	public void getMortgageInfo() {
+		System.out.println("-----------------------------");
+		System.out.printf("----  WELCOME TO %s  ---%n", BANK_NAME);
+		System.out.printf("-----------------------------%n%n");
+				
 		System.out.printf("Mortgage number: %d%n", getNumM());
 		System.out.printf("Customer name: %s%n", getName());
 		System.out.printf("Amount loan: $%.2f%n", getAmount());
 		System.out.printf("Loan Rate: %.2f%n", getRate());
-		System.out.printf("Term period: %s", getDuration());
+		System.out.printf("Term period: %s%n", getDuration());
 	}
+	abstract double totalAmt();
 
 	public int getNumM() {
 		return numM;
@@ -36,7 +41,7 @@ public abstract class Mortgages implements MortgageConstants {
 	}
 
 	public void setAmount(double amount) {
-		if (amount > 300000) {
+		if (amount > MAX_AMT) {
 			throw new IllegalArgumentException("Value exceed!");
 		}
 		this.amount = amount;
@@ -47,7 +52,7 @@ public abstract class Mortgages implements MortgageConstants {
 	}
 
 	public void setRate(double rate) {
-		this.rate = rate;
+		this.rate = 0.13 + rate;
 	}
 
 	public Term getDuration() {
@@ -55,12 +60,7 @@ public abstract class Mortgages implements MortgageConstants {
 	}
 
 	public void setDuration(Term d) {
-		if (d == Term.LONG || d == Term.MEDIUM) {
-			this.duration = Term.SHORT;
-		} else {
 			this.duration = d;
-		}
-
 	}
 
 }
