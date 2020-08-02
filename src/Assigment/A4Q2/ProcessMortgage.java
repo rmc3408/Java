@@ -1,21 +1,13 @@
 package Assigment.A4Q2;
 
 import java.util.Scanner;
-
 import Assigment.A4Q2.MortgageConstants.Term;
-
-//a main class that create an array of 3 mortgages.
-//Prompt the user for the current interest rate. 
-//Then in a loop prompts the user for a mortgage type and all relevant information 
-//for that mortgage. Store the created Mortgage objects in the array.
-//When data entry is complete, display all mortgages. 
 
 public class ProcessMortgage {
 
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+				
 		Scanner input = new Scanner(System.in);
 
 		Mortgages[] users = new Mortgages[3];

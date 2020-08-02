@@ -1,6 +1,5 @@
 package Assigment.A4Q2;
 
-
 public class PersonalMortgage extends Mortgages {
 
 	int serial = 0;
@@ -25,7 +24,5 @@ public class PersonalMortgage extends Mortgages {
 		super.getMortgageInfo();
 		System.out.printf("%nPersonal Mortgage%n");
 		System.out.printf("Final value is $%.2f%n%n", totalAmt() );
-		
-		
 	}
 }

@@ -1,6 +1,7 @@
 package Assigment.A4Q2;
 
 public abstract class Mortgages implements MortgageConstants {
+	
 	int numM;
 	String name;
 	double amount;
