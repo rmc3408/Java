@@ -23,6 +23,7 @@ public class Q2 {
 		System.out.println(numL);
 		
 		int sum = numL.stream().mapToInt(Integer::intValue).sum();
+		
 		System.out.printf("%nThe sum of 25 random number are %d", sum);
 		System.out.printf("%nThe average of random number are %.2f", ((float) sum/25));
 		
