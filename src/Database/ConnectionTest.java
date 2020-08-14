@@ -33,7 +33,7 @@ public class ConnectionTest extends Application
 	      System.out.println("Creating statement...");
 	      stmt = conn.createStatement();
 	      String sql;
-	      sql = "SELECT firstname FROM A4_customer";
+	      sql = "SELECT category FROM A4_berryfruit";
 	      ResultSet rs = stmt.executeQuery(sql);
 	      
 	      
@@ -41,10 +41,10 @@ public class ConnectionTest extends Application
 	      while(rs.next())
 	      {
 	         //Retrieve by column name
-	         String first = rs.getString("firstName");
+	         String cat = rs.getString("category");
 	         
 	         //Display values
-	         System.out.println("FirstName: " + first);
+	         System.out.println("Category of Berry: " + cat);
 	         
 	      }
 	      
