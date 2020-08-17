@@ -2,6 +2,35 @@
 # Java lectures from Centennial 
 
 
+## Week 09
+
+
+##### Understand Exception Handling mechanism in Java.
+– Use try and catch blocks to detect and handle exceptions.
+– Us throw statement to indicate a problem.
+– Use finally block to release the resources.
+
+
+- Exception – an indication of a problem that occurs during a program’s execution
+- Exception handling – resolving exceptions that may occur so program can continue or terminate gracefully
+* Exception handling enables programmers to create programs that are more robust and fault-tolerant
+
+__With exception handling, the program catches and handles the exception__
+* try block – encloses code that might throw an exception and the code that should not execute if an
+exception occurs 
+– Consists of keyword try followed by a block of code enclosed in curly braces
+-- Exceptions may surface through explicitly mentioned code in a try block, through calls to other methods
+
+* catch block – catches and handles an exception:
+– Begins with keyword catch
+– Exception parameter in parentheses – exception parameter identifies the exception type and enables catch block to interact
+with caught exception object
+– Block of code in curly braces that executes when exception of proper type occurs
+---- Matching catch block – the type of the exception parameter matches the thrown exception type exactly or is a superclass
+
+
+
+
 ## Week 06
 
 ### Polymorphism enables:
