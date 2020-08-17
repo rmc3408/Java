@@ -16,8 +16,10 @@ public class WordTypeCount
 
       createMap(myMap); // create map based on user input
       displayMap(myMap); // display map content
-   } // end main
-
+   } 
+   
+   
+   
    // create map from user input
    private static void createMap(Map<String, Integer> map) 
    {

@@ -26,6 +26,7 @@ public class ListTest
 
       list1.addAll(list2); // concatenate lists
       list2 = null; // release resources
+      System.out.println(list1); //print the list.
       printList(list1); // print list1 elements
 
       convertToUppercaseStrings(list1); // convert to uppercase string
@@ -56,7 +57,7 @@ public class ListTest
       while (iterator.hasNext()) 
       {
          String color = iterator.next(); // get item
-         iterator.set(color.toUpperCase()); // convert to upper case
+         iterator.set(color.toUpperCase()); // update and convert to upper case
       } 
    } 
 

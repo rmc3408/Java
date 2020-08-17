@@ -18,14 +18,13 @@ public class PriorityQueueTest
       queue.offer(5.4);
 
       System.out.print("Polling from queue: ");
+      System.out.printf("On top (A-Z list) = %.2f %n", queue.peek());
 
       // display elements in queue
       while (queue.size() > 0)
       {
-         System.out.printf("%.1f ", queue.peek()); // view top element
+         System.out.printf("%.1f , ", queue.peek()); // view top element
          queue.poll(); // remove top element
-         
-         
       } 
    } 
 } 

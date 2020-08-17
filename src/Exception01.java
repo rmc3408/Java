@@ -41,6 +41,7 @@ public class Exception01 {
 				System.err.printf("\nException: %s\n", arithmeticException );
 				System.out.println("Zero is an invalid denominator. Please try again.\n" );
 			}
+			
 		input.close();
 		}while ( continueLoop ); // input successful; end looping
 			

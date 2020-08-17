@@ -15,6 +15,7 @@ public class SortedSetTest
       SortedSet<String> tree = new TreeSet<>(Arrays.asList(colors));
 
       System.out.print("sorted set: ");
+      System.out.println(tree);
       printSet(tree);
 
       // get headSet based on "orange"
