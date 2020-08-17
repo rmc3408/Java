@@ -7,6 +7,10 @@ public class PolyCat extends PolyAnimal {
         System.out.println("meow");
  
     }
+    public void jump(){
+        System.out.println("superJump");
+ 
+    }
     public static void main(String[] args) 
 	{
         PolyAnimal myPet = new PolyCat();
