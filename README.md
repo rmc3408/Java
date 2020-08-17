@@ -19,7 +19,7 @@ Polymorphism is particularly effective for implementing so-called _layered softw
 
 ### Abstract classes
 
-You never intend to create objects. Acts as desgin and are too general. They are Used only as superclasses.
+You never intend to create objects. Function is share a common design and are too general. They are Used only as superclasses.
 
   ** An abstract class normally contains one or more abstract methods.
   ** An abstract method is an instance method with keyword abstract
@@ -38,7 +38,7 @@ When the compiler see a method call using variable’s class type. Create a obje
 ~ THIS case, superclass reference at a subclass variable object.
 ------------------------
 
-the type of the referenced object, not the type of the variable determines which method is called. BEcause is-a relationship applies only up the hierarchy.
+the type of the referenced object, not the type of the variable determines which method is called. Because is-a relationship applies only up the hierarchy.
 
 THERE IS A technique known as downcasting that enables a program to invoke subclass methods that are not in the superclass.
 
@@ -70,9 +70,18 @@ Classes that can be used to instantiate objects. more specific.
 Interfaces are particularly useful for assigning common functionality to possibly unrelated classes.
 ` public class _ClassName_ extends _SuperclassName_ implements _InterfaceName_ `
 
+Invoking a method on a subclass object via a superclass reference invokes the subclass functionality
+`Animal mydog = new Dog(); ` will be method Bark(); not sound.
+ or 
+`Dog (Animal)myPet = new Animal(); ` explicit casting subclass object with Superclass.
 
-
-
+//downcasting
+`
+PolyCat a3 = (PolyCat) new PolyAnimal();
+a3.walk();
+`
+When the compiler encounters a method call made through a variable, the compiler determines if the method can be called by checking the variable’s class type.
+This is dynamic binding.
 
 
 
