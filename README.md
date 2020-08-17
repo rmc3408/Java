@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Java lectures from Centennial 
 
 
