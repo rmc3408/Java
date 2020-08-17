@@ -12,6 +12,7 @@ public class Q2 {
 
 	public static void main(String[] args) {
 		
+		
 		Integer[] num = new Integer[25];
 		Random r = new Random();
 		for(int i = 0; i < num.length; i++) 

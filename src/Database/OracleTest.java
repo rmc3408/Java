@@ -60,7 +60,7 @@ public class OracleTest extends JFrame {
 		public void actionPerformed(ActionEvent e)
 		{
 			String user = txtUser.getText();
-			String password = txtPassword.getText<string>();
+			String password = txtPassword.getText();
 			connect(user,password);
 		}
 		
