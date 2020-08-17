@@ -6,6 +6,7 @@
 
 ##### Understand Exception Handling mechanism in Java.
 – Use try and catch blocks to detect and handle exceptions.
+- Use from design process’s inception
 – Us throw statement to indicate a problem.
 – Use finally block to release the resources.
 
@@ -26,6 +27,17 @@ exception occurs
 with caught exception object
 – Block of code in curly braces that executes when exception of proper type occurs
 ---- Matching catch block – the type of the exception parameter matches the thrown exception type exactly or is a superclass
+
+
+Has two subclasses: Exception and Error
+- Class Exception and its subclasses represent exception situations
+that can occur in a Java program and that can be caught by the
+application
+- Class Error and its subclasses represent abnormal situations that
+could happen in the JVM – it is usually not possible for a program to
+recover from Errors
+
+
 
 
 

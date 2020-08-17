@@ -11,17 +11,6 @@ public class Exception01 {
 	
 	public static void main( String args[] )
 	{
-	Scanner scanner = new Scanner( System.in );
-	System.out.print( "Please enter an integer numerator: " );
-	int numerator = scanner.nextInt();
-	
-	System.out.print( "Please enter an integer denominator: " );
-	int denominator = scanner.nextInt();
-	
-	int result = quotient( numerator, denominator );
-	System.out.printf("\nResult: %d / %d = %d\n", numerator, denominator, result );
-	scanner.close();
-	
 	
 	Scanner input = new Scanner(System.in); 
 	boolean continueLoop = true;
@@ -31,11 +20,11 @@ public class Exception01 {
 			try
 			{
 				System.out.print( "Please enter an integer numerator: " );
-				int numerator2 = input.nextInt();
+				int numerator = input.nextInt();
 				System.out.print( "Please enter an integer denominator: " );
-				int denominator2 = input.nextInt();
-				int result2 = quotient( numerator, denominator );
-				System.out.printf( "\nResult: %d / %d = %d\n", numerator2, denominator2, result2 );
+				int denominator = input.nextInt();
+				int result = quotient( numerator, denominator );
+				System.out.printf( "\nResult: %d / %d = %d\n", numerator, denominator, result );
 				
 				//If sucessful, continue to false.	
 				continueLoop = false;
